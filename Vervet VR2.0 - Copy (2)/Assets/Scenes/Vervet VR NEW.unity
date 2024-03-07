@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.35791045, g: 0.73707587, b: 0.9809706, a: 1}
+  m_IndirectSpecularColor: {r: 0.3575618, g: 0.7353643, b: 0.97655886, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -37045,6 +37045,7 @@ GameObject:
   - component: {fileID: 887725195}
   - component: {fileID: 887725194}
   - component: {fileID: 887725193}
+  - component: {fileID: 887725198}
   m_Layer: 0
   m_Name: Cube (32)
   m_TagString: Untagged
@@ -37084,7 +37085,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -37149,12 +37150,28 @@ Transform:
   m_GameObject: {fileID: 887725192}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.059006, y: 56.897, z: 32.117}
+  m_LocalPosition: {x: 46.059006, y: 56.341, z: 32.117}
   m_LocalScale: {x: 0.25618353, y: 1.8681575, z: 2.0902233}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887725198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887725192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bd4fdf9e6d99d148957367893083f42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Object: {fileID: 0}
+  red: {fileID: 2100000, guid: cc3da4e35fe5e074985b8f6b1b4492c4, type: 2}
+  white: {fileID: 2100000, guid: db16216c3f288ea4eb77dfefecada55a, type: 2}
+  sound: {fileID: 0}
 --- !u!43 &894070793
 Mesh:
   m_ObjectHideFlags: 0
@@ -40689,6 +40706,8 @@ MonoBehaviour:
   - {fileID: 129292632}
   - {fileID: 756595563}
   - {fileID: 357360709}
+  - {fileID: 457178550}
+  - {fileID: 1840872923}
   DisableTime: 0.4
 --- !u!65 &1146523765
 BoxCollider:
@@ -41225,7 +41244,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187741709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 39.45186}
+  m_LocalPosition: {x: 0, y: 0, z: 43.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41235,7 +41254,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 36.3638, y: 58.89715}
+  m_AnchoredPosition: {x: 35.33, y: 57.93}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1190176183
@@ -55398,7 +55417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.916, y: 57.309}
+  m_AnchoredPosition: {x: 45.916, y: 56.753}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!64 &2063383467 stripped
