@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BetterTeleportV2 : MonoBehaviour
 {
-    [Header("This script was made by LeXLeo119 Edited by RG_vr. Do not claim it as your own.")]
+    [Header("This script.")]
     public GameObject GorillaPlayer;
     public GameObject TeleportTo;
     public Collider[] CollidersToDisable;
