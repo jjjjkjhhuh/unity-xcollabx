@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   components:
   - {fileID: 6774077389042499465}
-  - {fileID: 4243919806194965337}
---- !u!114 &4243919806194965337
+  - {fileID: 6372307435211794243}
+--- !u!114 &6372307435211794243
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24,19 +24,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70afe9e12c7a7ed47911bb608a23a8ff, type: 3}
-  m_Name: SplitToning
+  m_Script: {fileID: 11500000, guid: 66f335fb1ffd8684294ad653bf1c7564, type: 3}
+  m_Name: ColorAdjustments
   m_EditorClassIdentifier: 
   active: 1
-  shadows:
+  postExposure:
     m_OverrideState: 1
-    m_Value: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
-  highlights:
+    m_Value: 1
+  contrast:
     m_OverrideState: 1
-    m_Value: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
-  balance:
+    m_Value: 30
+  colorFilter:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
     m_OverrideState: 0
     m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 10
 --- !u!114 &6774077389042499465
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -58,10 +64,10 @@ MonoBehaviour:
     m_Value: 0.8
   intensity:
     m_OverrideState: 1
-    m_Value: 1.2
+    m_Value: 2
   scatter:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 0
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -69,8 +75,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   downscale:
     m_OverrideState: 0
     m_Value: 0
