@@ -555,9 +555,9 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d3c05555213f6547b4cb79b03281607, type: 2}
-  - {fileID: 2100000, guid: 00ba916ae2436ce41ae0fa2bad55cfd9, type: 2}
-  - {fileID: 2100000, guid: c6fb9ff0585a6a249b29cc327e7df063, type: 2}
+  - {fileID: 2100000, guid: b2bb26a990b42a849aaf3af0528ac2a8, type: 2}
+  - {fileID: 2100000, guid: c6d275ef86e904c409419cb8b25f2efc, type: 2}
+  - {fileID: 2100000, guid: 62d55d143cd95a64eb37578361e26342, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3127,7 +3127,8 @@ MonoBehaviour:
   LeftHand: {fileID: 752089353315546107}
   RightHand: {fileID: 2837222685369851332}
   ColourObjects:
-  - {fileID: 1337170774580035978}
+  - {fileID: 3674694758447380142}
+  SkinnedColourObjects: []
   HeadCosmetics: {fileID: 182381451631106285}
   FaceCosmetics: {fileID: 38331861477394824}
   BodyCosmetics: {fileID: 7856659514856215809}
