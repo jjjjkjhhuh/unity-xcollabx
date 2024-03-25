@@ -10,7 +10,7 @@ public int CurrentTab = 1;
 
 public void OnTriggerEnter(Collider other)
 {
-if(other.tag == "Handtag");
+if(other.tag == "HandTag");
 
 {
 
