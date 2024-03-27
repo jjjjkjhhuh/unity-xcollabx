@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Cubemap:
-        m_Texture: {fileID: 8900000, guid: abb9aa57b07a36d4791363f5eaa11a96, type: 3}
+        m_Texture: {fileID: 8900000, guid: 4ead0be62abaac740bca5c32c76bd47c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CubemapAsset_2be74e4fde0d432681ccb06b3b9f6d51_Out_0:
