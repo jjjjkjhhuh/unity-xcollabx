@@ -89,7 +89,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228723478001943549}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: -0.165}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1672}
   m_LocalScale: {x: 0.93576765, y: 0.93576765, z: 0.93576765}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4993,10 +4993,10 @@ MonoBehaviour:
   interpolate: 1
   jiggleRigs:
   - rootTransform: {fileID: 5339511393685115604}
-    jiggleSettings: {fileID: 11400000, guid: 6f6678a094f218441a5c965eba615e58, type: 2}
+    jiggleSettings: {fileID: 11400000, guid: 4ac7f8309c6332a41a6e0716a1bf34a1, type: 2}
     ignoredTransforms: []
   - rootTransform: {fileID: 454313047513133426}
-    jiggleSettings: {fileID: 11400000, guid: 6f6678a094f218441a5c965eba615e58, type: 2}
+    jiggleSettings: {fileID: 11400000, guid: 4ac7f8309c6332a41a6e0716a1bf34a1, type: 2}
     ignoredTransforms: []
   debugDraw: 0
 --- !u!114 &3628300066555187433
@@ -5015,10 +5015,10 @@ MonoBehaviour:
   jiggleZones:
   - target: {fileID: 5339511393685115604}
     radius: 0
-    jiggleSettings: {fileID: 11400000, guid: 6f6678a094f218441a5c965eba615e58, type: 2}
+    jiggleSettings: {fileID: 11400000, guid: 4ac7f8309c6332a41a6e0716a1bf34a1, type: 2}
   - target: {fileID: 454313047513133426}
     radius: 0
-    jiggleSettings: {fileID: 11400000, guid: 6f6678a094f218441a5c965eba615e58, type: 2}
+    jiggleSettings: {fileID: 11400000, guid: 4ac7f8309c6332a41a6e0716a1bf34a1, type: 2}
   targetSkins:
   - {fileID: 525674763932011677}
   debugDraw: 0
